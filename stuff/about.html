@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tejth</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: #27374d;
+        font-family: "Poppins", sans-serif;
+      }
+      .item1 {
+        grid-area: header;
+      }
+      .item2 {
+        grid-area: menu;
+      }
+      .item3 {
+        grid-area: main;
+      }
+      .item4 {
+        grid-area: right;
+      }
+      .item5 {
+        grid-area: gmail;
+      }
+      .item6 {
+        grid-area: instagram;
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-areas:
+          "header header header header header header"
+          "menu menu main main  right right"
+          " gmail gmail gmail instagram instagram instagram";
+        gap: 10px;
+        background-color: #27374d;
+        padding: 10px;
+        padding-top: 5%;
+      }
+
+      .grid-container > div {
+        background-color: #dde6ed;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+      h1 {
+        padding-top: 4%;
+        text-align: center;
+      }
+      a:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:visited {
+        color: pink;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:hover {
+        color: gold;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      a:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:visited {
+        color: pink;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:hover {
+        color: gold;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      a:active {
+        color: white;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+    </style>
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <h1>📞</h1>
+    <div class="grid-container">
+      <div class="item1"><strong>Get in touch!</strong></div>
+      <div class="item2">
+        <a href="https://www.linkedin.com/in/tejendra-pal-singh-6b595a235/">
+          <img src="linkedin.svg"
+        /></a>
+      </div>
+      <div class="item3">
+        <a href="https://github.com/tejth"><img src="github.svg" /></a>
+      </div>
+      <div class="item4">
+        <a href="https://www.facebook.com/tejtushar.singh"
+          ><img src="facebook.svg"
+        /></a>
+      </div>
+      <div class="item5">
+        <a href="mailto:ptejendra91@gmail.com"><img src="gmail.svg" /></a>
+      </div>
+      <div class="item6">
+        <a href="https://www.instagram.com/_tej_th_/"
+          ><img src="instagram.svg"
+        /></a>
+      </div>
+    </div>
+    <footer>
+      <a href="../index.html">HOME</a>
+    </footer>
+  </body>
+</html>
